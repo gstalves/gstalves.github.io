@@ -7,9 +7,14 @@
   align-items: center;
 }
 
+.header h1 {
+  font-family: "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
 .header-menu {
   display: flex;
-  gap: 10px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -21,6 +26,8 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  background: #e0e0e0;
+  border-radius: 20px;
 }
 
 @media (max-width: 800px) {
